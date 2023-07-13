@@ -1,0 +1,149 @@
+@charset   "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0 ;
+  list-style: none;
+  text-decoration: none;
+}
+
+#wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+ 
+header {
+  background: #fff9f5;
+  color: #e6c0c0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+ font-family: 'Abril Fatface', cursive;
+
+}
+
+
+.main-menu {
+  background: #fff9f5;
+  text-align: center;
+}
+
+ 
+.main-menu ul li a {
+  color: #e6c0c0;
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  
+}
+
+section {
+  background: #fff9f5;
+  flex: 3;
+  padding: 20px;
+}
+ 
+ 
+.main-menu ul li a:hover {
+  background: #ffe6e6;
+}
+ 
+
+aside {
+  background: #ccb8b8;
+  flex: 1;
+}
+ 
+
+ 
+ 
+footer   {
+  background:#cca9a9 ;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+}
+
+img   {
+  width: 90%;
+  height: auto;
+}
+
+@media all and (min-width: 600px) {
+
+  .main-menu ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  main {
+    font-size:larger;
+    display: flex;
+font-family: 'fantasy', cursive;
+
+  }
+
+
+  #imgSet   {
+    display: flex;
+  }
+}
+
+@media all and (min-width: 1025px) {
+
+  #wrap {
+    width: 84%;
+    max-width: 1280px;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+div {
+  width: 880px;
+  text-align: center;
+}
+.circle img {
+  border-radius: 50%;
+  width: 300px;
+}
+
+body {
+  position: relative;
+  background-color: #fff9f5;
+  color: #cca9a9;
+  text-align: center;
+  
+}
+
+.fade,
+.fade2 {
+  width: 160px;
+  margin: 20px;
+}
+
+.row {
+  position: relative;
+}
+
+.fade2 {
+  opacity: .2;
+  transition: opacity, 1s;
+}
+
+.fade2:hover {
+  opacity: 1;
+}
