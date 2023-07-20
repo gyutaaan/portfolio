@@ -5,6 +5,7 @@
   padding: 0 ;
   list-style: none;
   text-decoration: none;
+  table-layout:   auto;
 }
 
 #wrap {
@@ -29,6 +30,7 @@ h1 {
 .main-menu {
   background: #fff9f5;
   text-align: center;
+  table-layout:   auto;
 }
 
  
@@ -37,6 +39,7 @@ h1 {
   display: block;
   padding: 10px 20px;
   text-align: center;
+  table-layout:   auto;
   
 }
 
@@ -44,6 +47,7 @@ section {
   background: #fff9f5;
   flex: 3;
   padding: 20px;
+  
 }
  
  
@@ -70,6 +74,7 @@ footer   {
 img   {
   width: 90%;
   height: auto;
+  text-align: center;
 }
 
 @media all and (min-width: 600px) {
@@ -89,6 +94,7 @@ font-family: 'fantasy', cursive;
 
   #imgSet   {
     display: flex;
+    text-align: center;
   }
 }
 
@@ -115,6 +121,7 @@ font-family: 'fantasy', cursive;
 div {
   width: 880px;
   text-align: center;
+  margin: auto;
 }
 .circle img {
   border-radius: 50%;
@@ -126,8 +133,8 @@ body {
   background-color: #fff9f5;
   color: #cca9a9;
   text-align: center;
-  
 }
+  
 
 .fade,
 .fade2 {
